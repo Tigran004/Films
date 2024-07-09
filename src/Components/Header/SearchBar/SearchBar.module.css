@@ -1,0 +1,38 @@
+.search {
+    position: relative;
+    z-index: 5;
+    top: 0;
+    right: 100px;
+  }
+  
+  .searchMenu {
+    width: 300px;
+    max-height: 300px; 
+    overflow-y: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(16, 85, 77);
+    position: absolute;
+  }
+  
+  .searchMenu_Box {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    text-decoration: none;
+    color: white;
+
+  }
+  
+  .searchMenu_h2 h2 {
+    font-size: 15px;
+  }
+  
+  .searchInput {
+    background-image: linear-gradient(to right, #a736cd, #491d76, rgb(128, 0, 255), #8d169f);
+    border: none;
+    height: 25px;
+    width: 250px;
+    color: white;
+  }
